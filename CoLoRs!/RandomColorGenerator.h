@@ -11,12 +11,16 @@
 
 @protocol RandomColorGeneratorDelegate <NSObject>
 
--(void) randomColor1: (UIColor *) color;
+-(void) randomColor: (UIColor *) color;
 @optional
+-(void) randomColor1: (UIColor *) color;
 -(void) randomColor2: (UIColor *) color;
 -(void) randomColor3: (UIColor *) color;
 -(void) randomColor4: (UIColor *) color;
 -(void) randomColor5: (UIColor *) color;
+-(void) randomColor6: (UIColor *) color;
+
+
 
 @end
 
@@ -27,10 +31,14 @@
 
 @property (nonatomic,weak) id<RandomColorGeneratorDelegate> delegate;
 
+-(void) generate;
 -(void) generate1;
 -(void) generate2;
 -(void) generate3;
 -(void) generate4;
 -(void) generate5;
+-(void) generate6;
+
+
 
 @end

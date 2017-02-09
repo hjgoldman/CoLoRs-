@@ -15,6 +15,10 @@
 @property (nonnull,strong) UIView *secondView;
 @property (nonnull,strong) UIView *thirdView;
 @property (nonnull,strong) UIView *fourthView;
+@property (nonnull,strong) UIView *fifthView;
+@property (nonnull,strong) UIView *sixthView;
+
+
 
 
 
