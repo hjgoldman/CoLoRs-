@@ -11,13 +11,11 @@
 
 @protocol RandomColorGeneratorDelegate <NSObject>
 
--(void) randomColor: (UIColor *) color;
-
-@optional
 -(void) randomColor1: (UIColor *) color;
 -(void) randomColor2: (UIColor *) color;
 -(void) randomColor3: (UIColor *) color;
 -(void) randomColor4: (UIColor *) color;
+-(void) randomColor5: (UIColor *) color;
 
 
 
@@ -35,11 +33,11 @@
 //@property (nonatomic,assign) int intervalSpeed;
 
 
--(void) generate;
 -(void) generate1;
 -(void) generate2;
 -(void) generate3;
 -(void) generate4;
+-(void) generate5;
 
 
 

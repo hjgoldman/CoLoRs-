@@ -20,23 +20,23 @@
     RandomColorGenerator *randomColorGenerator = [[RandomColorGenerator alloc] init];
     
     randomColorGenerator.delegate = self;
-    [randomColorGenerator generate];
     [randomColorGenerator generate1];
     [randomColorGenerator generate2];
     [randomColorGenerator generate3];
     [randomColorGenerator generate4];
+    [randomColorGenerator generate5];
 
 
 }
 
--(void) randomColor:(UIColor *) color {
+-(void) randomColor1:(UIColor *) color {
     
     self.view.backgroundColor = color;
 
     
 }
 
--(void) randomColor1:(UIColor *)color {
+-(void) randomColor2:(UIColor *)color {
     
     self.firstView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 350, 575)];
     self.firstView.backgroundColor = color;
@@ -46,7 +46,7 @@
     
 }
 
--(void) randomColor2:(UIColor *)color {
+-(void) randomColor3:(UIColor *)color {
     
     self.secondView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 300, 475)];
     self.secondView.backgroundColor = color;
@@ -56,7 +56,7 @@
     
 }
 
--(void) randomColor3:(UIColor *)color {
+-(void) randomColor4:(UIColor *)color {
     
     self.thirdView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 250, 375)];
     self.thirdView.backgroundColor = color;
@@ -66,7 +66,7 @@
     
 }
 
--(void) randomColor4:(UIColor *)color {
+-(void) randomColor5:(UIColor *)color {
     
     self.thirdView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 200, 275)];
     self.thirdView.backgroundColor = color;
