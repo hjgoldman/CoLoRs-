@@ -27,7 +27,7 @@
     [randomColorGenerator generate4];
     [randomColorGenerator generate5];
     [randomColorGenerator generate6];
-
+    [randomColorGenerator generate7];
 
 
 }
@@ -96,6 +96,11 @@
     self.sixthView.center = self.view.center;
     
     [self.view addSubview:self.sixthView];
+    
+}
+
+-(void) randomColor7:(UIColor *)color {
+
     
 }
 
