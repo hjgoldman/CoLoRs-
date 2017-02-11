@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -38,9 +39,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2Be-mX-pHh" customClass="RoundedView">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Be-mX-pHh" customClass="RoundedView">
                                 <rect key="frame" x="-163" y="-17" width="700" height="700"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -48,9 +48,8 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xos-00-j47" customClass="RoundedView">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xos-00-j47" customClass="RoundedView">
                                 <rect key="frame" x="-113" y="33" width="600" height="600"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.50196081400000003" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -58,9 +57,8 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="87i-dG-67j" customClass="RoundedView">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="87i-dG-67j" customClass="RoundedView">
                                 <rect key="frame" x="-63" y="83" width="500" height="500"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="1" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -68,9 +66,8 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4LZ-mU-8ke" customClass="RoundedView">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4LZ-mU-8ke" customClass="RoundedView">
                                 <rect key="frame" x="-13" y="133" width="400" height="400"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -78,9 +75,8 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PPu-XT-afG" customClass="RoundedView">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PPu-XT-afG" customClass="RoundedView">
                                 <rect key="frame" x="37" y="183" width="300" height="300"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -88,9 +84,8 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hQd-aM-78n" customClass="RoundedView">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hQd-aM-78n" customClass="RoundedView">
                                 <rect key="frame" x="87" y="233" width="200" height="200"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="1" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -98,18 +93,64 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view tag="1" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wqT-nq-v3m" customClass="RoundedView">
-                                <rect key="frame" x="137" y="283" width="100" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view tag="1" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wqT-nq-v3m" customClass="RoundedView">
+                                <rect key="frame" x="87" y="283" width="200" height="100"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z1W-gN-IgL" customClass="RoundedView">
+                                        <rect key="frame" x="75" y="25" width="50" height="50"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="25"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
                                 <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="z1W-gN-IgL" firstAttribute="centerY" secondItem="wqT-nq-v3m" secondAttribute="centerY" id="5ZT-1V-2sW"/>
+                                    <constraint firstItem="z1W-gN-IgL" firstAttribute="top" secondItem="wqT-nq-v3m" secondAttribute="top" constant="25" id="QiL-0u-mYp"/>
+                                    <constraint firstItem="z1W-gN-IgL" firstAttribute="centerX" secondItem="wqT-nq-v3m" secondAttribute="centerX" id="jVH-cy-YHO"/>
+                                    <constraint firstItem="z1W-gN-IgL" firstAttribute="leading" secondItem="wqT-nq-v3m" secondAttribute="leading" constant="75" id="yTC-82-25g"/>
+                                </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                        <real key="value" value="50"/>
+                                        <real key="value" value="100"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Xos-00-j47" firstAttribute="centerX" secondItem="Ozy-27-gt7" secondAttribute="centerX" id="1Pg-Ba-Ike"/>
+                            <constraint firstItem="PPu-XT-afG" firstAttribute="centerX" secondItem="hQd-aM-78n" secondAttribute="centerX" id="23U-yR-5j8"/>
+                            <constraint firstItem="Xos-00-j47" firstAttribute="centerX" secondItem="87i-dG-67j" secondAttribute="centerX" id="3Kk-u0-NGt"/>
+                            <constraint firstItem="hQd-aM-78n" firstAttribute="leading" secondItem="wqT-nq-v3m" secondAttribute="leading" id="3yQ-m5-Ueu"/>
+                            <constraint firstItem="2Be-mX-pHh" firstAttribute="centerY" secondItem="PPu-XT-afG" secondAttribute="centerY" id="48g-Cb-tlh"/>
+                            <constraint firstItem="4LZ-mU-8ke" firstAttribute="top" secondItem="wnT-R5-auF" secondAttribute="bottom" constant="113" id="B2m-cz-X1f"/>
+                            <constraint firstItem="2Be-mX-pHh" firstAttribute="leading" secondItem="Ozy-27-gt7" secondAttribute="leading" constant="-163" id="BWI-6h-n1K"/>
+                            <constraint firstItem="2Be-mX-pHh" firstAttribute="centerX" secondItem="hQd-aM-78n" secondAttribute="centerX" id="CT2-5R-ZZE"/>
+                            <constraint firstItem="87i-dG-67j" firstAttribute="centerX" secondItem="wqT-nq-v3m" secondAttribute="centerX" id="Emq-cT-fgO"/>
+                            <constraint firstItem="hQd-aM-78n" firstAttribute="top" secondItem="wnT-R5-auF" secondAttribute="bottom" constant="213" id="G62-Lt-EeZ"/>
+                            <constraint firstItem="wqT-nq-v3m" firstAttribute="centerY" secondItem="hQd-aM-78n" secondAttribute="centerY" id="IkY-Ro-NJj"/>
+                            <constraint firstItem="Xos-00-j47" firstAttribute="top" secondItem="wnT-R5-auF" secondAttribute="bottom" constant="13" id="J9Z-yC-Gpp"/>
+                            <constraint firstItem="4LZ-mU-8ke" firstAttribute="centerX" secondItem="wqT-nq-v3m" secondAttribute="centerX" id="Jd4-67-oEx"/>
+                            <constraint firstItem="PPu-XT-afG" firstAttribute="top" secondItem="wnT-R5-auF" secondAttribute="bottom" constant="163" id="M01-Gh-hsO"/>
+                            <constraint firstItem="hQd-aM-78n" firstAttribute="trailing" secondItem="wqT-nq-v3m" secondAttribute="trailing" id="OD5-0C-wNc"/>
+                            <constraint firstItem="hQd-aM-78n" firstAttribute="leading" secondItem="Ozy-27-gt7" secondAttribute="leadingMargin" constant="71" id="RKs-Kz-fbY"/>
+                            <constraint firstItem="PPu-XT-afG" firstAttribute="centerY" secondItem="wqT-nq-v3m" secondAttribute="centerY" id="dEo-oi-ere"/>
+                            <constraint firstItem="PPu-XT-afG" firstAttribute="leading" secondItem="Ozy-27-gt7" secondAttribute="leadingMargin" constant="21" id="elX-dx-bBT"/>
+                            <constraint firstItem="Xos-00-j47" firstAttribute="centerY" secondItem="wqT-nq-v3m" secondAttribute="centerY" id="fuB-zO-92z"/>
+                            <constraint firstItem="4LZ-mU-8ke" firstAttribute="leading" secondItem="Ozy-27-gt7" secondAttribute="leadingMargin" constant="-29" id="gTO-ab-4wy"/>
+                            <constraint firstItem="87i-dG-67j" firstAttribute="top" secondItem="wnT-R5-auF" secondAttribute="bottom" constant="63" id="hk8-Xc-Zgs"/>
+                            <constraint firstItem="4LZ-mU-8ke" firstAttribute="centerY" secondItem="wqT-nq-v3m" secondAttribute="centerY" id="iob-FY-dQM"/>
+                            <constraint firstItem="PPu-XT-afG" firstAttribute="centerY" secondItem="Ozy-27-gt7" secondAttribute="centerY" id="k1O-xQ-Kuj"/>
+                            <constraint firstItem="Xos-00-j47" firstAttribute="leading" secondItem="Ozy-27-gt7" secondAttribute="leading" constant="-113" id="ngc-Fm-dAp"/>
+                            <constraint firstItem="87i-dG-67j" firstAttribute="leading" secondItem="Ozy-27-gt7" secondAttribute="leadingMargin" constant="-79" id="qtN-li-lW1"/>
+                            <constraint firstItem="2Be-mX-pHh" firstAttribute="top" secondItem="Ozy-27-gt7" secondAttribute="topMargin" constant="-17" id="vmO-ON-wn8"/>
+                            <constraint firstItem="87i-dG-67j" firstAttribute="centerY" secondItem="PPu-XT-afG" secondAttribute="centerY" id="weT-0m-qhc"/>
+                            <constraint firstItem="wqT-nq-v3m" firstAttribute="top" secondItem="wnT-R5-auF" secondAttribute="bottom" constant="263" id="xhG-gN-L6U"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="circle1" destination="wqT-nq-v3m" id="cq0-T6-v7K"/>
@@ -119,6 +160,7 @@
                         <outlet property="circle5" destination="87i-dG-67j" id="TnF-vU-buh"/>
                         <outlet property="circle6" destination="Xos-00-j47" id="5W8-mj-NYY"/>
                         <outlet property="circle7" destination="2Be-mX-pHh" id="gRW-3S-tar"/>
+                        <outlet property="circle8" destination="z1W-gN-IgL" id="cNF-JD-UiU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4zx-MX-lL7" userLabel="First Responder" sceneMemberID="firstResponder"/>

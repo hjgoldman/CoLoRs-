@@ -20,6 +20,8 @@
 -(void) randomColor5: (UIColor *) color;
 -(void) randomColor6: (UIColor *) color;
 -(void) randomColor7: (UIColor *) color;
+-(void) randomColor8: (UIColor *) color;
+
 
 
 
@@ -41,6 +43,7 @@
 -(void) generate5;
 -(void) generate6;
 -(void) generate7;
+-(void) generate8;
 
 
 

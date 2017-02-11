@@ -29,6 +29,8 @@
     [randomColorGenerator generate5];
     [randomColorGenerator generate6];
     [randomColorGenerator generate7];
+    [randomColorGenerator generate8];
+
     
 }
 
@@ -77,6 +79,12 @@
 -(void) randomColor7:(UIColor *)color {
     
     self.circle7.backgroundColor = color;
+    
+}
+
+-(void) randomColor8:(UIColor *)color {
+    
+    self.circle8.backgroundColor = color;
     
 }
 

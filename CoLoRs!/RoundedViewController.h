@@ -19,6 +19,8 @@
 @property (nonatomic,weak)  IBOutlet UIView *circle5;
 @property (nonatomic,weak)  IBOutlet UIView *circle6;
 @property (nonatomic,weak)  IBOutlet UIView *circle7;
+@property (nonatomic,weak)  IBOutlet UIView *circle8;
+
 
 
 @end
